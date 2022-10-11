@@ -64,3 +64,55 @@ print()
 
 #Exercitiul 6
 
+pret_masini = {
+    'Dacia': 6800,
+    'Lăstun': 500,
+    'Opel': 1100,
+    'Audi': 19000,
+    'BMW': 23000
+}
+
+buget = 15000
+for masina, pret in pret_masini.items():
+    if pret <= buget:
+        print(f"Pentru bugetul de {buget} puteti cumpara urmatoarele modele {masina}")
+print()
+
+#Exercitiul 7
+
+numere = [5, 7, 3, 9, 3, 3, 1, 0, -4, 3]
+x = 0
+for numar in  numere:
+    if numar == 3:
+        x = x+1
+print(f"Numarul 3 apare de {x} ori in lista")
+
+
+#Exercitiul 8
+
+numere = [5, 7, 3, 9, 3, 3, 1, 0, -4, 3]
+suma = 0
+
+for numar in numere:
+    suma = suma + numar
+print(f"Suma numerelor din lista este {suma}")
+
+#Exercitiul 9
+
+numere = [5, 7, 3, 9, 3, 3, 1, 0, -4, 3]
+max = numere[0]
+for numar in numere:
+    if numar > max:
+        max = numar
+print(f"Cel mai mare numar din lista este {max}")
+
+
+#Exercitiul 10
+numere = [5, 7, 3, 9, 3, 3, 1, 0, -4, 3]
+lista_neg = []
+for numar in numere:
+    if numar > 0:
+        numar = numar - numar*2
+    lista_neg.append(numar)
+print(f"Lista a devenit: {lista_neg}")
+
