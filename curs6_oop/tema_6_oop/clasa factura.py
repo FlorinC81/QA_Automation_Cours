@@ -36,7 +36,7 @@ class Factura:
         self.nume_produs = nume
         return nume
 
-   
+
 
 factura_1 = Factura ( "001", "calorifer 10 elementi", 5, 450)
 factura_2 = Factura ( "002", " Mithubishi AC 12000 BTU", 3, 3230)
