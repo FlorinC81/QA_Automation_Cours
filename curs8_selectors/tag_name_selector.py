@@ -19,6 +19,7 @@ print(page_title.text)
 Deoarece pot exista mai multe elemente cu acelasi tag,
 metoda find_element il va gasi doar pe primul.
 """
+
 imput_elem = chrome.find_element(By.TAG_NAME, "input")
 imput_elem.send_keys("Acesta este primul input gasit")
 time.sleep(2)

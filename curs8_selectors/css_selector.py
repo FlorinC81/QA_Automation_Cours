@@ -21,6 +21,7 @@ chrome = webdriver.Chrome(service=service)
 
 chrome.get("https://formy-project.herokuapp.com/form")
 time.sleep(1)
+
 # cautam un tag de tip <div> care are clasa (adica .) numita "form-group"
 form_group = chrome.find_element(By.CSS_SELECTOR, "div.form-group")
 #Cautam in tree-ul format de elementul gasit mai sus (adica nu in tot html-ul, ci doar intr-o parte)

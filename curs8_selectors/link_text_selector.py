@@ -19,6 +19,7 @@ chrome = webdriver.Chrome(service=service)
 chrome.get("https://formy-project.herokuapp.com/form")
 time.sleep(1)
 
+
 formy_link = chrome.find_element(By.LINK_TEXT,"FORMY")
 formy_link.click()
 time.sleep(2)

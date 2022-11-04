@@ -13,3 +13,4 @@ time.sleep(1)
 formy_link = chrome.find_element(By.CLASS_NAME, "navbar-brand")
 formy_link.click()
 time.sleep(2)
+
